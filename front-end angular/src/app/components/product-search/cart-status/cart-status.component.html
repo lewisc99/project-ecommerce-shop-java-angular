@@ -1,0 +1,12 @@
+<div class="component cart-item">
+  <a [routerLink]="'cart-detail'">
+    <div class="col-cart">
+      <div class="cart-quantity">
+        {{( totalQuantity == null ? 0: totalQuantity) }}
+       </div>
+       <div class="cart-price">
+     {{(totalPrice == null ? 0: totalPrice)| currency:'USD'}}
+       </div>
+    </div>
+  </a>
+  </div>
