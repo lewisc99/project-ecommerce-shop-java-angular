@@ -1,5 +1,29 @@
-﻿# JAVA SPRING BOOT AND ANGULAR 2 - ECOMMERCE WEBSITE.
+﻿# JAVA SPRING BOOT AND ANGULAR 2 - ECOMMERCE WEBSITE
 
+<br/>
+<h2>Description English</h2>
+<p>Very well elaborated project where it simulates an Ecommerce site with all the main
+features, You can add products, search by name and category, remove from cart, add quantities,
+Finally, place an order by adding your personal details to the store.</p>
+<hr>
+<h2>Descrição Português</h2>
+<p>Projeto muito bem elaborado onde simula um site de Ecommerce com todas as principais
+funcionalidades,Você pode adicionar produtos, pesquisar por nome e categoria, remover do carrinho, adicionar quantidades,
+Finalmente, faça um pedido adicionando seus dados pessoais à loja.
+</p>
+<hr>
+<br/>
+
+<br/>
+## 🚀 Tech Used<br/>
+<br/>
+- Spring Boot<br/>
+- H2-database <br/>
+- HTML e CSS Typescript <br/>
+- Hibernate Jpa<br/>
+- Angular 2 <br/>
+
+<br/>
 
 
 
@@ -10,35 +34,22 @@
 <p>Product Detail</p><img src="images/productDetail.JPG">
 <br/>
 <br/>
-<p>product By Category</p><img src="images/productByCategory.JPG">
+<p>Product By Category</p><img src="images/productByCategory.JPG">
 <br/>
 <br/>
-<p>cart Detail </p><img src="images/cartDetail.JPG">
+<p>Cart Detail </p><img src="images/cartDetail.JPG">
 <br/>
 <br/>
-<p>checkout</p><img src="images/checkout.JPG">
+<p>Checkout</p><img src="images/checkout.JPG">
 <br/>
 <br/>
-<p>error Page</p><img src="images/errorPage.JPG">
+<p>Error Page</p><img src="images/errorPage.JPG">
 <br/>
 <br/>
-<p>no Product In Cart.JPG</p><img src="images/noProductInCart.JPG">
+<p>No Product In Cart</p><img src="images/noProductInCart.JPG">
 <br/>
 <br/>
 
-<br/>
-## 🚀 Tech Used<br/>
-<br/>
-
-
-
-- SPRING Boot<br/>
-- h2-database <br/>
-- html e css typescript <br/>
-- Hibernate Jpa<br/>
-- Angular 2 <br/>
-
-<br/>
 
 
 
