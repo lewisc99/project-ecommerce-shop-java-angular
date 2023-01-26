@@ -1,0 +1,39 @@
+.elements-pagination {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+    padding: 14px;
+    border: 1px solid rgb(0, 134, 255);
+    background-color: white;
+    color:rgb(0, 134, 255);
+    width: 30px;
+    cursor: pointer;
+}
+
+button {
+    border:none;
+    background: none;
+    cursor: pointer;
+    color:rgb(0, 134, 255);
+}
+
+.first-element {
+    border-radius: 10px 0px 0px 10px;
+}
+.last-element {
+    border-radius: 0px 10px 10px 0px;
+}
+
+li:hover {
+    background-color: rgb(184, 183, 189);
+}
+
+@media screen and (max-width:600px) {
+
+    
+}
