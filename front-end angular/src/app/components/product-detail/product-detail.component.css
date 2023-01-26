@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+}
+div.container {
+    display: flex;
+    width: 100%;
+
+}
+div.row {
+    display: flex;
+    
+    width: 100%;
+}
+div.col {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  width: 50%;
+  height: 50%;
+}
+
+
+/* product image */
+/* ----------------- */
+img {
+    width: 400px;
+    transition: 0.5s;
+}
+img:hover {
+    width: 420px;
+   
+}
+
+
+/* button add cart */
+/* ------------------ */
+
+button.add-product {
+
+    border-radius: 7px;
+    width: 300px;
+    padding: 30px ;
+    margin: 10px;
+    border: 0;
+    display: flex;
+    color:rgb(37, 114, 165);
+    flex-wrap: wrap;
+    font-weight: bold;
+  
+}
+
+button.add-product:hover {
+
+   transform: translateY(5px);
+   color: white;
+   background-color:rgb(37, 114, 165);
+   cursor: pointer;
+   
+}
+
+
+ /* title product */
+
+ div.product-name {
+     font-size: 40px;
+     font-family: Arial, Helvetica, sans-serif;
+     color: rgb(58, 70, 80);
+ }
+div.product-price {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+/* product return to list */
+a.return-list {
+    margin-top:50px;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(0, 110, 255);
+}
+
+
+
+
+/* Product not found css */
+.product-not-found-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.product-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 246, 212);
+    color: rgb(85, 85, 85);
+    margin-top: 30px;
+}
+
+hr {
+    margin-top: 10px;
+}
+
+/* description */
+.product-description {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+
+}
+
+div.product-description > h1 {
+    font-size: 34px;
+}
+div.product-description > div.product-description-child {
+    margin-top: 6px;
+}
+
+
+
+/* Expensive */
+/* ------------- */
+
+@media screen and (max-width:500px)
+{
+    img {
+        width: 300px;
+        transition: 0.5s;
+    }
+
+
+    div.product-name {
+        font-size:20px;
+        font-family: Arial, Helvetica, sans-serif;
+     
+    }
+    div.row {
+        max-width: 80%;
+    }
+
+    img:hover {
+        width: 320px;
+       
+    }
+
+    div.product-price {
+        font-size: 30px;
+        font-weight: bold;
+        padding: 6px;
+    }
+
+
+    /* description */
+.product-description {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 20px;
+  
+}
+}

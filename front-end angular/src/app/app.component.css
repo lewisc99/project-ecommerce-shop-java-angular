@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ 
+}
+
+
+div.section-container {
+    display: flex;
+    width: max-content;
+ 
+}
+
+
+
+div.container-to-section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 1000px;
+  
+ 
+}
+
+
+/* components route */
+
+app-product-category {
+    display: flex;
+    width: 13%;
+    background-color: aliceblue;
+    max-height: 100%;
+}
+
+::ng-deep .Project-wrapper { width: 87%;
+    background-color: rgb(189, 232, 250)
+}
+::ng-deep .Project-category {
+    width: 87%;
+    background-color: rgb(189, 232, 250);
+}
+
+::ng-deep .Project-list {
+    width: 87%;
+    background-color: rgb(189, 232, 250);
+}
+
+
+    
+
+
+div.container-footer {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(167, 199, 226);
+}
+div.row-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+ 
+}
+footer {
+    display: flex;
+  
+}
+footer a {
+    margin: 40px;
+    
+}
+footer a {
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+
+/* ---------------------- */
+/* expensive  */
+/* ---------------------- */
+
+@media screen and (min-width:300px) {
+
+    
+    div.container-to-section {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+       
+        background-color: rgb(189, 232, 250);
+    }
+        
+}
+    
+@media screen and (max-width:700px) {
+
+    
+    div.container-to-section {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(189, 232, 250);
+    }
+        
+}
+    
+
+@media screen and (max-width:1000px) {
+
+    
+    ::ng-deep .Project-list {
+        width: 87%;
+       height: 100%;
+        background-color: rgb(189, 232, 250);
+    }
+    
+    
+    
+        
+}
+  
+
+
+::ng-deep .Project-cart-detail {
+    width: 87%;
+    background-color: rgb(189, 232, 250);
+}
+
+
+::ng-deep .Project-checkout {
+    width: 87%;
+     background-color: rgb(189, 232, 250);
+}
+
+
+
+
+@media screen and (max-device-width:1000px), screen and (max-width:1000px) {
+    app-product-category {
+    display: none;
+    transition: 1s;
+    }
+    }

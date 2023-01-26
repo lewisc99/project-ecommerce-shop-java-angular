@@ -1,0 +1,164 @@
+
+/* ----------------------- */
+/* container */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.container {
+    display: flex;
+   height: 93%;
+}
+
+div.row {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+   
+    flex-wrap: wrap;
+    background-color: rgb(189, 232, 250)
+}
+
+div.product-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 350px;
+
+    height: 380px;
+    margin: 7px;
+    flex-wrap: wrap;
+}
+
+/* image  */
+img {
+    padding: 5px;
+    width: 200px ;
+    height: 260px;
+    flex-wrap: wrap;
+    transition: 0.3s;
+}
+
+a {
+    cursor: pointer;
+}
+a:hover {
+    padding:1px;
+}
+
+div.product-name {
+    font-size: 20px;
+    color: rgb(60, 69, 88);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+div.product-price {
+    font-size: 30px;
+    color: rgb(17, 17, 17);
+    font-weight: bold;
+
+}
+
+button.add-product {
+
+    border-radius: 7px;
+
+    padding: 10px;
+    margin: 5px;
+    border: 0;
+    display: flex;
+    color:rgb(37, 114, 165);
+    flex-wrap: wrap;
+    font-weight: bold;
+  
+}
+
+button.add-product:hover {
+
+   transform: translateY(5px);
+   color: white;
+   background-color:rgb(37, 114, 165);
+   cursor: pointer;
+   
+}
+
+
+
+/* Product not found css */
+.product-not-found-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.product-div {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    height: 100px;
+    align-items: center;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(255, 246, 212);
+    color: rgb(85, 85, 85);
+    margin-top: 30px;
+}
+div.pagination {
+   display: flex;
+   height: 7%;
+   width: 100%;
+}
+
+app-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+@media screen and (max-width:500px)
+{   
+    div.product-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+    
+        height: 320px;
+        margin: 7px;
+        flex-wrap: wrap;
+    }
+    img {
+        padding: 5px;
+        width: 150px ;
+        height: 180px;
+        flex-wrap: wrap;
+        transition: 0.3s;
+    }
+
+   
+}
+
+@media screen and (max-width:1500px)
+{   
+    div.product-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 300px;
+    
+        height: 320px;
+        margin: 7px;
+        flex-wrap: wrap;
+    }
+   
+   
+}
+

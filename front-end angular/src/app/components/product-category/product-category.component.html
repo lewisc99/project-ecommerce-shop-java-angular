@@ -1,0 +1,6 @@
+<div class="container-category">
+
+    <ul *ngFor="let tempCategories of categories">
+        <li><a [routerLink]="['categories',tempCategories.id]" routerLinkActive="active">{{tempCategories.categoryName}}</a></li>
+    </ul>
+</div>

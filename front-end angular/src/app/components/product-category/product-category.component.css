@@ -1,0 +1,33 @@
+div.container-category {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 50px;
+    flex-direction: column;
+}
+li {
+    padding: 10px 35px 10px 35px;
+    margin-bottom: 10px;
+    list-style: none;
+    transition: 0.7s;
+}
+
+li:hover {
+    background-color: rgb(202, 205, 214);
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 134, 255);
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.active  {
+    background-color: rgb(202, 205, 214);
+    padding: 10px 20px 10px 20px;
+}

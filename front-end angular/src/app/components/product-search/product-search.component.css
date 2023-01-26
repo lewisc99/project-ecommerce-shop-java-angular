@@ -1,0 +1,110 @@
+
+
+/* container Nav bar */
+.navbar-expand-lg{
+    
+    width: 100%;
+    display: flex;
+    background: rgb(0, 134, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+  
+}
+
+
+.container-fluid{
+    display: flex;
+    height: 80px;
+  
+}
+.navbar-brand{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-style: normal;
+}
+a.navbar-brand{
+   
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 50px;
+}
+
+.navbar-collapse {
+    width: 1200px;
+  display: flex;
+ 
+}
+
+
+/* input nav bar */
+/* ---------------------- */
+
+form.d-lg-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ width: inherit;
+}
+input {
+    width: 35%;
+    height: 40px;
+    color: rgb(55, 55, 55);
+    border-radius: 4px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+  
+    border-width: 0; 
+    transition: 0.4s;
+}
+
+input:focus {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+/* Button Search */
+/* ------------------ */
+button.primary {
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 4px;
+    border: none;
+    width: 50px;
+}
+button.primary:hover {
+  background-color: rgb(215, 232, 255);
+  cursor: pointer;
+}
+
+app-cart-status {
+    display: flex;
+
+}
+
+
+@media screen and (max-width:600px) {
+    .navbar-brand {
+        display:none;
+    }
+    .navbar-collapse {
+        width: 100%;
+     
+        display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+    .form-control,.btn-outline {
+     display: none;
+      
+    }
+    
+   
+}
