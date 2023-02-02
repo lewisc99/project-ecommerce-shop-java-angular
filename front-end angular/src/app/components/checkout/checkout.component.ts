@@ -135,7 +135,7 @@ export class CheckoutComponent implements OnInit {
   
     if (this.checkOutFormGroup.invalid)
     {
-      this.checkOutFormGroup.markAllAsTouched();
+      return this.checkOutFormGroup.markAllAsTouched();
     }
 
     //set up order
