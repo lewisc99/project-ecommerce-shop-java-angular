@@ -2,14 +2,18 @@
 
 <br/>
 <h2>Description English</h2>
-<p>Very well elaborated project where it simulates an Ecommerce site with all the main
-features, You can add products, search by name and category, remove from cart, add quantities,
-Finally, place an order by adding your personal details to the store.</p>
+<p>With Ecommerce Website Mock Project, you can experience all the main functionalities
+  without having to invest in a definitive platform. Add products to cart, search by name and category,
+  remove unwanted items and even add quantities as needed. And best of all: checkout
+  adding your personal data and feel what your customer's experience would be like when buying in your virtual store.
+   Try the Ecommerce website simulation project right now and be surprised by the result..</p>
 <hr>
 <h2>Descrição Português</h2>
-<p>Projeto muito bem elaborado onde simula um site de Ecommerce com todas as principais
-funcionalidades,Você pode adicionar produtos, pesquisar por nome e categoria, remover do carrinho, adicionar quantidades,
-Finalmente, faça um pedido adicionando seus dados pessoais à loja.
+<p>Com o  projeto de simulação de site de Ecommerce, você pode experimentar todas as principais funcionalidades
+ sem precisar investir em uma plataforma definitiva. Adicione produtos ao carrinho, pesquise por nome e categoria,
+ remova itens indesejados e até mesmo adicione quantidades conforme a sua necessidade. E o melhor de tudo: finalize a compra
+ adicionando seus dados pessoais e sinta como seria a experiência do seu cliente ao comprar em sua loja virtual.
+  experimente agora mesmo o projeto de simulação de site de Ecommerce e se surpreenda com o resultado.
 </p>
 <hr>
 <br/>
@@ -28,6 +32,10 @@ Finalmente, faça um pedido adicionando seus dados pessoais à loja.
 
 
 ## 🖼 Screenshot APPLICATION SCREENS <br/>
+<p>How to Run</p><img src="images/ecommerce.gif">
+<br/>
+<br/>
+
 <p>Initial Page</p><img src="images/initialPage.JPG">
 <br/>
 <br/>
